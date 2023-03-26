@@ -1,28 +1,36 @@
-body{
+body {
   margin-top: 60px;
-  text-align:center;
+  text-align: center;
+  background-color: black;
 }
 
 h1 {
   padding-bottom: 0.5rem;
+  font-family: "Sofia Sans Extra Condensed", sans-serif;
+  color: #ffffff;
+  font-size: 40px !important;
 }
 
-input[type=number] {
+input[type="number"] {
   cursor: pointer;
 }
 
-#input-celsius{
-  background-color: #ff7722;
+#input-celsius {
+  background-color: #d9afd9;
+  background-image: linear-gradient(0deg, #d9afd9 0%, #97d9e1 100%);
   font-size: 2.5rem;
 }
 
-#input-fahrenheit{
-  background-color: white;
+#input-fahrenheit {
+  background-color: #8ec5fc;
+  background-image: linear-gradient(62deg, #8ec5fc 0%, #e0c3fc 100%);
   font-size: 2.5rem;
 }
 
-#input-kelvin{
-  background-color:#00FF00;
+#input-kelvin {
+  background-color: #4158D0;
+  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  
   font-size: 2.5rem;
 }
 
@@ -42,7 +50,3 @@ input[type=number] {
 :-moz-placeholder {
   color: #000000 !important;
 }
-
-
-
-
